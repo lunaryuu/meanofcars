@@ -1,0 +1,13 @@
+Package: meanofcars
+
+Title: This is a package that calculates the means of various variables in the mtcars set.
+
+Version: 0.0.0.9000
+
+Authors@R: Michelle Gbeddie 
+
+Description: This package uses the mtcars built in dataset in R (renamed with the variable name "myCars") and calculates the means of the mpg, cyl, disp, hp, and wt columns in the database and then displays them to the user, provided they pass in the correct column name into the "meansDisplay" function.
+
+Depends: R (>= 3.1.2)
+License: CCO
+LazyData: true
